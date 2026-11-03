@@ -34,7 +34,6 @@
 </div>
 @endsection
 
-{{-- 4. Isi Script Khusus Halaman Ini --}}
 @section('script')
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>

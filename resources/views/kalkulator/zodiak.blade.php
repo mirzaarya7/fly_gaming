@@ -1,5 +1,9 @@
+@extends('layout.app')
+
+@section('title','Cek Zodiak')
 
 
+@section('content')
 <div class="wr-wrapper">
   <div class="wr-card text-center">
     <i class="lni lni-star" style="font-size:60px; color:#0d6efd;"></i>
@@ -16,9 +20,11 @@
     </button>
   </div>
 </div>
+@endsection
 
 
-
+@section('script')
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
 function hitungZodiak() {
   let draw = parseInt(document.getElementById("zodiak_draw").value);
@@ -44,8 +50,9 @@ function hitungZodiak() {
       <b>Sisa Draw:</b> ${sisaDraw}<br>
       <b>Estimasi Diamond:</b> ${diamond}
     `,
-    confirmButtonText: "Gas Draw 🌟",
+    confirmButtonText: "Gas Draw",
     confirmButtonColor: "#0d6efd"
   });
 }
 </script>
+@endsection

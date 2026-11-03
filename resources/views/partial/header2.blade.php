@@ -2,15 +2,6 @@
     crossorigin="anonymous"></script>
 <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
-<!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-<!-- ========================= preloader start ========================= -->
 <?php if(!isset($noPreloader)) { ?>
 <div class="preloader">
     <div class="loader">
@@ -28,7 +19,6 @@
         </div>
     </div>
 </div>
-<!-- preloader end -->
 <?php } ?>
 
 
@@ -54,7 +44,7 @@
                             <ul id="nav" class="navbar-nav ms-auto">
 
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="index.php">Home</a>
+                                    <a class="page-scroll" href="{{ route('home') }}">Home</a>
                                 </li>
 
                                 <!-- Produk dengan Submenu -->
