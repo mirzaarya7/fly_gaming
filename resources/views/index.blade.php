@@ -52,7 +52,7 @@
             <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="single-logo">
                     <i class="lni lni-playstation"></i>
-                    <p>PS2 Games</p>
+                    <p>PS Games</p>
                 </div>
             </div>
 
