@@ -96,12 +96,7 @@
         </li>
         <li>
           <a class="dropdown-item" href="game/">
-            <i class="lni lni-display"></i> Download Game PC
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="game/">
-            <i class="lni lni-playstation"></i> Download Game PS2
+            <i class="lni lni-display"></i> Download Game
           </a>
         </li>
       </ul>
